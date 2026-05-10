@@ -1,0 +1,130 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+     background-color: black;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+   
+}
+.navbar{
+    font-size: 20px;
+    padding-top: 20px;
+    /* color: white; */
+}
+.icon img{
+    height: 70px;
+    width: 70px;
+}
+
+.icon{
+    position: absolute;
+    left: 10px;
+    /* border: solid white; */
+    z-index: 0;
+}
+
+.iconname{
+    position: absolute;
+    left:70px;
+    z-index: 1;
+    top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+button{
+    position: absolute;
+    right: 25px;
+     top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    background-color: #131313;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.text{
+    font-size: 140px;
+    font-weight: 700;
+    text-align: center; 
+    margin: 30px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    /* border: solid; */
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: #161616;
+   
+}
+.container3 :nth-child(1){
+    background-color: #fc4a09;
+}
+.container4{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+
+
+}
+.box{
+    height: 700px;
+    width: 500px;
+    background-color: #0e0e0e;
+    border-radius: 30px;
+}
+.box1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.box2 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.box3 img{
+    width: 100%;
+    height: 60%;
+}
+.last{
+    background-color: #591f0a;
+   padding: 10px 20px 10px 20px;
+   margin-top: 10px;
+   margin-left: 10px;
+   display: inline-block;
+   border-radius: 30px;
+   color: #df8964;
+   
+}
+.text1{
+   margin-top: 15px;
+   margin-left: 10px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.date{
+   margin-top: 20px;
+   margin-left: 10px;
+   color: #efe8dd;
+   font-size: 16px;
+}
