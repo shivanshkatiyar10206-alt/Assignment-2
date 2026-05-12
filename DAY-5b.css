@@ -1,0 +1,237 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right,#08141e,#060b12);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container1{
+    display: flex;
+    gap: 60px;
+    /* border: solid white; */
+  
+}
+.text1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 30px;
+    
+}
+
+#span1{
+    display: inline-block;
+    color: white;
+  margin-left: 30px;
+  margin-top: 60px;
+  color: #618dad;
+
+}
+.smallcont1{
+    color: white;
+    margin-top: 90px;
+    font-size: 13px;
+    
+    
+}
+.smallcont2{
+    color: white;
+    margin-top: 90px;
+    font-size: 13px;
+    margin-left: 30px;
+    
+}
+.filterbtn{
+    height: 55px;
+    width: 170px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 18px;
+    margin-top: 90px;
+    margin-left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 25px;
+
+    color: white;
+    background-color: rgba(255,255,255,0.03);
+
+    backdrop-filter: blur(10px);
+
+    cursor: pointer;
+
+}
+.container2{
+    display: flex;
+    gap: 10px;
+   flex-wrap: wrap;
+   margin-left: 30px;
+   margin-right: 30px;
+  
+ 
+}
+.box{
+    background-color: #1f3245;
+    height: 400px;
+    width: 220px;
+    flex-shrink: 0;
+   border-radius: 20px;
+    
+}
+.container2 :nth-child(1){
+   width: 500px;
+   
+}
+.box2{
+    width: 230px;
+}
+#img1 img{   
+     height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+#img2 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 220px;
+   object-fit: cover;
+
+}
+#img3 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 220px;
+    object-fit: cover;
+}
+#img4 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 220px;
+    object-fit: cover;
+}
+#img5 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 230px;
+    object-fit: cover;
+}
+#img6 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 230px;
+    object-fit: cover;
+}
+#img7 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 230px;
+    object-fit: cover;
+}
+#img8 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 230px;
+    object-fit: cover;
+}
+#img9 img{
+    height: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 230px;
+    object-fit: cover;
+}
+.smallcont{
+    color: white;
+    object-fit: contain;
+}
+.name{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.type{
+    font-size: 12px;
+    margin-left: 15px;
+    color: #667585;
+}
+.whitecolor{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: solid;
+    border-radius: 100px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.bluecolor{
+    height: 10px;
+    width: 10px;
+    border: solid;
+    border-radius: 100px;
+    margin-left: 15px;
+    display: inline-block;
+    background-color: #ccdceb;
+
+}
+.colors{
+    font-size: 9px;
+}
+.price{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #667585;
+}
+.container3{
+    display: flex;
+    color: white;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 30px;
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    border-radius: 22px;
+
+    /* background-color: rgba(255,255,255,0.02); */
+   background: linear-gradient(to right, #0a1825 #091624);
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+    inset 0px 0px 10px rgba(255,255,255,0.03),
+    0px 0px 20px rgba(0,0,0,0.4);
+
+}
+.item{
+    font-size: 10px;
+}
+.item2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 13px;
+ 
+}
+
+.item3{
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    gap: 10px;
+    
+}
